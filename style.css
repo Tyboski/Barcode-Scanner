@@ -1,0 +1,52 @@
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#barcode {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  outline: none;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+#barcode:focus {
+  border-color: #28a745;
+}
+
+#nutrition-info {
+  margin-top: 2rem;
+}
+
+#nutrition-info p {
+  margin-bottom: 0.5rem;
+}
+
+#nutrition-info p strong {
+  font-weight: bold;
+}
